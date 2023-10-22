@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ebc7f6;
+}
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.counter-card {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    box-shadow:20px 20px 40px grey;
+}
+
+.counter {
+    margin-bottom: 2rem;
+}
+
+.counter-value {
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(103, 59, 234);
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: lightgrey;
+    padding: .9rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: .5rem;
+    cursor: pointer;
+}
+
+.input-field {
+    padding: 1rem 1rem 0;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.input-val {
+    padding: .5rem;
+    height: 1.2rem;
+    margin: .5rem;
+    font-size: 1rem;
+    border: 1px grey solid;
+    outline: none;
+}
+
+.set-button {
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    width: 2rem;
+    height: 1rem;
+    background-color: lightgrey;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links a {
+    padding: 1rem 1rem 0;
+}
+
+@media screen and (max-width: 650px) {
+    .counter-card {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .counter-value {
+        font-size: 4rem;
+    }
+    
+    .button {
+        padding: .5rem;
+    }
+}
+
+
+/* Grid styles */
+
+.input-container {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem 1rem 1rem;
+}
+
+input {
+    border-radius: 3px;
+    ;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.grid-container {
+    width: max-content;
+    padding: 2rem;
+    background-color: #ffffff;
+    display: grid;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.grid-element {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
