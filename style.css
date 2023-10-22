@@ -93,6 +93,7 @@ main {
 
 .links a {
     padding: 1rem 1rem 0;
+    color: rgb(103, 59, 234);
 }
 
 @media screen and (max-width: 650px) {
@@ -165,5 +166,5 @@ input {
 }
 
 .err-main h2, .main-404 > p {
-    margin-bottom: 1.5rem;
+    margin: 1.5rem 0;
 }
