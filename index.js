@@ -54,8 +54,10 @@ SET_VALUE.addEventListener('click', function() {
 
 
     if(isNaN(inputValue)){
-        document.getElementById('input-val').value = "Please enter a number!"
-        document.getElementById('input-val').style.color = "red"
+        // document.getElementById('input-val').value = "Please enter a number!"
+        // document.getElementById('input-val').style.color = "red"
+
+        window.location.replace("/error-page.html")
 
     }else{
         countValue = inputValue;
